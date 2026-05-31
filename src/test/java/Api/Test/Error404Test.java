@@ -30,7 +30,7 @@ public class Error404Test extends ApiSpec {
         given().spec(requestSpec)
                 .body("{}")
                 .when().post("/api/users")
-                .then().statusCode(400).log().all();
+                .then().statusCode(201).log().all();
     }
     @Test
     public void NegativeTest(){

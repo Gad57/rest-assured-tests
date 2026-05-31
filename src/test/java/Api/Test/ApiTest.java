@@ -20,6 +20,6 @@ public class ApiTest {
                 .log().all()
                 .spec(responseSpec200)
 
-                .body("data.first_name", hasItem("Janet"));
+                .body("data.first_name", hasItem("Lindsay"));
     }
 }

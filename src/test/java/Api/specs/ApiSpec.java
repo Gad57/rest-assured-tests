@@ -9,7 +9,7 @@ import io.restassured.specification.ResponseSpecification;
 public class ApiSpec {
     public static RequestSpecification requestSpec = new RequestSpecBuilder()
             .setBaseUri("https://reqres.in")
-            .addHeader("x-api-key",System.getenv("REQRES_API_KEY"))
+            .addHeader("x-api-key",System.getenv("free_user_3EJl3C4XphWSPvYUKjW3wBe76Qi"))
             .setContentType(ContentType.JSON)
             .build();
     public static ResponseSpecification responseSpec200 = new ResponseSpecBuilder()
