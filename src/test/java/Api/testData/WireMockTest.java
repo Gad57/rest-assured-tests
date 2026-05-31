@@ -8,7 +8,7 @@ import static io.restassured.RestAssured.given;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-
+@Tag("wiremock")
 public class WireMockTest {
     static WireMockServer wireMock = new WireMockServer(8089);
     @BeforeAll
