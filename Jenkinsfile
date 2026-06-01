@@ -1,4 +1,3 @@
-Set-Content Jenkinsfile @"
 pipeline {
     agent any
     stages {
@@ -14,4 +13,3 @@ pipeline {
         }
     }
 }
-"@
